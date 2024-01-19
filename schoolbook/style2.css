@@ -1,0 +1,67 @@
+body{
+    background-color:#e8eef2 ;
+}
+
+.ww3{
+    text-decoration: none;
+}
+
+
+
+.first{
+    position: relative;
+    left: 559px;
+}
+.imgg{
+    border-radius: 2%;
+    position: relative;
+}
+
+.meore{
+    border: solid 2px #dadce0;
+    text-align: left;
+    margin: auto;
+    width: 780px;
+    background-color: white;
+    border-radius: 2%;
+    margin-top: 20px;
+}
+.moitx{
+    font-size: xx-large;
+    margin-left: 20px;
+}
+.mesame{
+    margin-left: 20px;
+}
+
+.tra{
+    margin-top: 20px;
+}
+
+
+.formm{
+    border: solid 2px #dadce0;
+    text-align: left;
+    margin: auto;
+    width: 780px;
+    background-color: white;
+    border-radius: 2%;
+}
+.radio{
+    font-size: 40px;
+    
+}
+.ravi{
+    width: 300px;
+    border-left-color: white;
+    border-top: white;
+    border-right: white;
+}
+
+.sub{
+    position: relative;
+    font-size: x-large;
+    left: 590px;
+    top: 30px;
+
+}

@@ -1,0 +1,159 @@
+.login-area {
+    width: 70%;
+    height: 65vh;
+    background-color: unset;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 100px rgba(53, 50, 98, 0.09);
+    z-index: 1;
+    margin-left: 20px;
+}
+
+.log-in{
+    margin-left: 20px;
+}
+
+.login-area .login-in {
+    width: calc(38% - 30px);
+    height: calc(100% - 30px);
+    float: left;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.login-area .login-in .greeting {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    align-items: center;
+    font-family: 'web';
+    color: grey;
+}
+
+.login-area .login-in .login-form {
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form-block{
+    padding: 5px;
+}
+
+.login-area .login-in .login-form .main-logo {
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 15px 30px;
+}
+
+.login-area .login-in .login-form .input-group {
+    width: 100%;
+    margin: 1em 0;
+    height: 50px;
+    position: relative;
+}
+
+.alert {
+    text-align: center;
+    color: #FF9800;
+    font-family: 'web';
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 2em;
+    width: 100%;
+    /* text-align: center; */
+}
+
+.login-area .login-in .login-form .main-logo img {
+    width: 100px;
+}
+
+.login-area .login-in {
+    width: calc(38% - 30px);
+    height: calc(100% - 30px);
+    float: left;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.login-area .login-in .login-form button {
+    display: table;
+    margin: 1em auto 0;
+    padding: 13px 18px 11px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: 'web';
+    color: #fff;
+    background: #00b6e1;
+    letter-spacing: 1px;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.footer-widget-area {
+    position: relative;
+    padding: 50px 0;
+}
+
+.text-none{
+    text-decoration: none;
+}
+
+.reset-pass-btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'web';
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.reset-password-block {
+    height: 250px;
+    display: none;
+}
+
+.login-area .login-in .login-form .input-group input {
+    width: calc(100% - 0px);
+    height: 100%;
+    padding-left: 10px;
+    background: #f7f7f7;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-family: 'web';
+    color: grey;
+    transition: all 0.5s;
+}
+
+.box-item.night {
+    background-image: url(https://eservices.schoolbook.ge/Content/NewLogin/img/game.png);
+}
+.box-item {
+    background-repeat: no-repeat;
+    width: 72%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-size: cover;
+    top: 0;
+}

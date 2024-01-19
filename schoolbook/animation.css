@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #89CFF0; /* Light blue background */
+  }
+  
+  .school-bell {
+    position: relative;
+    width: 100px;
+    height: 150px;
+    background-color: #9370DB; /* Purple bell color */
+    border-radius: 50% 50% 0 0;
+    margin-top: 20px;
+    animation: swing 1s infinite alternate;
+  }
+  
+  .school-bell::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 70px;
+    background-color: #87CEFA; /* Lighter blue bell hanger color */
+    top: -10px;
+    left: 45px;
+  }
+  
+  @keyframes swing {
+    0% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(-5deg);
+    }
+  }
